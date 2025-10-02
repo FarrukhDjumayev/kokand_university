@@ -60,14 +60,14 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6"
           >
-            <Button
+            {/* <Button
               size="lg"
               variant="secondary"
               className="text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all hover:scale-105"
               onClick={() => window.open("https://ikkinchitalim.kokanduni.uz/", "_blank")}
             >
               {t.nav.applyNow} <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            </Button> */}
             <Button
               size="lg"
               variant="outline"

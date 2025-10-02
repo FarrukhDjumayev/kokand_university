@@ -12,9 +12,9 @@ const Navbar = () => {
   const navLinks = [
     { name: t.nav.about, href: "#about" },
     { name: t.nav.programs, href: "#programs" },
-    { name: t.nav.admissions, href: "#admissions" },
-    { name: t.nav.campus, href: "#campus" },
-    { name: t.nav.news, href: "#news" },
+    // { name: t.nav.admissions, href: "#admissions" },
+    // { name: t.nav.campus, href: "#campus" },
+    // { name: t.nav.news, href: "#news" },
     { name: t.nav.contact, href: "#contact" }
   ];
 
@@ -61,11 +61,11 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center space-x-2">
             <ThemeToggle />
             <LanguageSwitcher />
-            <Button 
+            {/* <Button 
               onClick={() => window.open("https://ikkinchitalim.kokanduni.uz/", "_blank")}
             >
               {t.nav.applyNow}
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile menu button */}

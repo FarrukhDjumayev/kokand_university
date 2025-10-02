@@ -95,9 +95,11 @@ All colors MUST be HSL.
     @apply bg-card/80 backdrop-blur-lg border border-border/50 shadow-lg;
   }
 
-  .hero-gradient {
-    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)), hsl(var(--hero-gradient-end)));
-  }
+ /* styles.css */
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(0,0,0,0.35), rgba(0,0,0,0.6));
+}
+
 
   .text-gradient {
     @apply bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
