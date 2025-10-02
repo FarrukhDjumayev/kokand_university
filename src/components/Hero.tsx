@@ -82,7 +82,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Quick Stats */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -103,7 +103,7 @@ const Hero = () => {
                 <div className="text-sm md:text-base text-white/80">{stat.label}</div>
               </motion.div>
             ))}
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 

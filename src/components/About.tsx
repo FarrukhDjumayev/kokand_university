@@ -38,7 +38,7 @@ const About = () => {
           </motion.div>
 
           {/* Description */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -50,7 +50,7 @@ const About = () => {
             <p className="text-lg leading-relaxed text-foreground mt-4">
               {t.about.description2}
             </p>
-          </motion.div>
+          </motion.div> */}
 
           {/* Stats Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -77,7 +77,7 @@ const About = () => {
           </div>
 
           {/* International Partnerships */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -116,7 +116,7 @@ const About = () => {
                 <p className="text-muted-foreground">Advanced programs in transport and ICT</p>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
